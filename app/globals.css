@@ -1,0 +1,60 @@
+body {
+    position: relative;
+    min-height: 100%;
+    margin: 0px;
+    font-feature-settings: "kern";  
+}
+body{
+    font-family: Poppins, sans-serif;
+    color: #1A202C;
+    background: #FFFFFF;
+    transition-property: background-color;
+    transition-duration: 200ms;
+    line-height: 1.5;
+}
+
+:where(*) {
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+:where(ol, ul) {
+    margin: 0px;
+    padding: 0px;
+}
+
+*, ::before, ::after {
+    border-color:#E2E8F0;
+}
+
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 0px;
+}
+
+:where(blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre) {
+    margin: 0px;
+}
+
+img, video {
+    height: auto;
+    max-width: 100%;
+}
+
+[type="button"], [type="reset"], [type="submit"], button {
+    appearance: button;
+    background-color: initial;
+    background-image: none;
+}
+
+.container{
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 0px;
+width: 100%;
+}
+.page{
+margin-top: 80px;
+width: 100%;
+}
